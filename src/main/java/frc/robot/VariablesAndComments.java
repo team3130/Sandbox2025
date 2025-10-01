@@ -18,14 +18,15 @@ public class VariablesAndComments {
 
 
 
+    /*
+    Exercise 2: Variables
 
-    //Exercise 2: Variables
+    1 variable has been demonstrated for you. This shows some syntax
+    and Camel Case which is important in convention. Now Make one of each type of variables.
+    Make sure to have your variables as static for now.
+    Later this will change
 
-    //1 variable has been demonstrated for you. This shows some syntax
-    //and Camel Case which is important in convention. Now Make one of each type of variables,
-    //at least one with initialization during declaration and at least one with separate lines
-    //for declaration and initialization. Make sure to have your variables as static for now.
-    //Later this will change
+     */
 
     public static int randomNum = 1;
     //Variables under this line
