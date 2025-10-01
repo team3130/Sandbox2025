@@ -31,7 +31,7 @@ public class MathPractice {
     public static double randomPositiveDouble = (Math.random()) * 10000; //any number from 0 - 10000
 
 
-
+    public static double remainder = randomPositiveDouble % 360;
 
 
     /* Exercise 3: Harder Challenge Problem
@@ -47,8 +47,7 @@ public class MathPractice {
      */
     public static double randomDouble = (Math.random() - 0.5) * 20000; //any number from -10000 to 10000
 
-
-
+    public static double remainder2 = (randomDouble % 180);
 
 
     public static void main(String[] args) {
@@ -69,11 +68,13 @@ public class MathPractice {
 
         System.out.println("Exercise 2: ");
         System.out.println("Random Positive Input: " + randomPositiveDouble + " degrees");
+        System.out.println("Answer Between 0 and 360 Degrees: " + remainder);
 
         System.out.println("--------------------------------------------");
 
         System.out.println("Exercise 3: ");
         System.out.println("Random Input: " + randomDouble + " degrees");
+        System.out.println("Answer between -180 and 180 Degrees: " + remainder2);
 
     }
 }
