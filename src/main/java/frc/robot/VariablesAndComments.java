@@ -9,14 +9,15 @@ public class VariablesAndComments {
     A Multi-Line comment have already been demonstrated here,
     but I want you to try and create at least 1 multi-line comment
     and at least 1 single line comment
+    */
 
-    Single Line comment under this line
-
-
-    Multi-line comment under this line
+    /*Single Line comment under this line*/
 
 
-     */
+    /*Multi-line comment under this line*/
+
+
+
 
     //Exercise 2: Variables
 
