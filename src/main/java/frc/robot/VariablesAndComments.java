@@ -44,11 +44,10 @@ public class VariablesAndComments {
     //are not just printing a random value and give some context.
     //One example is provided
 
-}
-
-public static void main(String[] args) {
-    System.out.println("This is a random number: " + randomNum);
-    System.out.println("This is a random double number: " + randomDouble);
-    System.out.print("Blah Blah");
-    System.out.print("Blah Blah 2");
+    public static void main(String[] args) {
+        System.out.println("This is a random number: " + randomNum);
+        System.out.println("This is a random double number: " + randomDouble);
+        System.out.print("Blah Blah");
+        System.out.print("Blah Blah 2");
+    }
 }
