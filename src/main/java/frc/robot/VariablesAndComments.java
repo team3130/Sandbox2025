@@ -45,9 +45,15 @@ public class VariablesAndComments {
     //One example is provided
 
     public static void main(String[] args) {
+        System.out.println();
+        System.out.println("---------------------------------------------------------------------------------------");
         System.out.println("This is a random number: " + randomNum);
         System.out.println("This is a random double number: " + randomDouble);
         System.out.print("Blah Blah");
         System.out.print("Blah Blah 2");
+        System.out.println();
+        System.out.println("Motor Name: " + motorName);
+        System.out.println("Limit Reached: " + limitReached);
+        System.out.println("---------------------------------------------------------------------------------------");
     }
 }
