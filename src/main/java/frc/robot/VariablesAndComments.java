@@ -12,12 +12,14 @@ public class VariablesAndComments {
     */
 
     /*Single Line comment under this line*/
-
+ //Comments are so cool
 
 
     /*Multi-line comment under this line*/
 
-
+    /* comments are kinda
+    amazing
+    */
 
     /*
     Exercise 2: Variables
@@ -32,15 +34,21 @@ public class VariablesAndComments {
     public static int randomNum = 1;
     //Variables under this line
 
-
-
+    public static double randomDouble = 0.1;
+    public static String motorName = "Falcon";
+    public static boolean limitReached = true;
 
 
     //This is psvm and will be used to print out your variable values.
     //try to print out your variables and their values. Make sure you
     //are not just printing a random value and give some context.
     //One example is provided
-    public static void main(String[] args) {
-        System.out.println("This is a random number: " + randomNum);
-    }
+
+}
+
+public static void main(String[] args) {
+    System.out.println("This is a random number: " + randomNum);
+    System.out.println("This is a random double number: " + randomDouble);
+    System.out.print("Blah Blah");
+    System.out.print("Blah Blah 2");
 }
