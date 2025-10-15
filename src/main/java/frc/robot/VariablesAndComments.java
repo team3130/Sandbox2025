@@ -12,13 +12,16 @@ public class VariablesAndComments {
     */
 
     /*Single Line comment under this line*/
-
+    //Hi Im Teegan simmons 
 
     /*Multi-line comment under this line*/
+    /* hi Umar Im Teegan J Simmons and I am
+    a part of software and hope to be for 
+    the next 3 years/*
 
 
 
-    /*
+    
     Exercise 2: Variables
 
     1 variable has been demonstrated for you. This shows some syntax
@@ -30,7 +33,7 @@ public class VariablesAndComments {
 
     public static int randomNum = 1;
     //Variables under this line
-
+    public static int random =1;
 
 
 
