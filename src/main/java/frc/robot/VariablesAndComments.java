@@ -12,10 +12,10 @@ public class VariablesAndComments {
     */
 
     /*Single Line comment under this line*/
-
+//Singal line comment
 
     /*Multi-line comment under this line*/
-
+/*this is a Multi line comment*/
 
 
     /*
@@ -30,16 +30,18 @@ public class VariablesAndComments {
 
     public static int randomNum = 1;
     //Variables under this line
-
-
-
-
+int number=25;
+boolean toggle=true;
+double decnumber=2.65;
+String greeting="hello";
 
     //This is psvm and will be used to print out your variable values.
     //try to print out your variables and their values. Make sure you
     //are not just printing a random value and give some context.
     //One example is provided
     public static void main(String[] args) {
-        System.out.println("This is a random number: " + randomNum);
+        System.out.println("testing string" + greeting);
     }
 }
+
+
