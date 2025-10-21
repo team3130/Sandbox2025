@@ -12,7 +12,7 @@ public class MathPractice {
 
     public static double twoSquared = Math.pow(2, 2);
 
-
+        
 
 
 
@@ -56,8 +56,8 @@ public class MathPractice {
         System.out.println("Desired Answer : Mathematical Operation");
         System.out.println(4 + " : Exponents / Power");
 
-        System.out.println(35 + " : Addition");
-        System.out.println(7 + " : Square Root");
+        System.out.println(35 + 2" : Addition");
+        System.out.println(7 + Math.sqr(4) (" : Square Root");
         System.out.println(105 + " : Subtraction");
         System.out.println(5 + " : Division");
         System.out.println(5.5 + " : Division");
