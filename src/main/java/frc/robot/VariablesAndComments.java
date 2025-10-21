@@ -12,7 +12,7 @@ public class VariablesAndComments {
     */
 
     /*Single Line comment under this line*/
- //Comments are so cool
+    //Comments are so cool
 
 
     /*Multi-line comment under this line*/
