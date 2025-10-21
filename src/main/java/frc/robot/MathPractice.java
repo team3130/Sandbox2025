@@ -12,7 +12,14 @@ public class MathPractice {
 
     public static double twoSquared = Math.pow(2, 2);
 
-    System.out.println("The answer should be 4 and the answer is" + twoSquared);
+    public static int addition = 30 + 5;
+    public static double squareRoot = Math.sqrt(49);
+    public static int subtraction = 110 - 5;
+    public static int division = 30 / 6;
+    public static double doubleDivision = 11.0 / 2.0;
+    public static int modulus = 13 % 7;
+    public static int multiplication = 16 * 2;
+    public static int absoluteValue = Math.abs(4-239);
 
 
 
@@ -29,6 +36,7 @@ public class MathPractice {
     Solve below and feel free to print your answers to check
      */
     public static double randomPositiveDouble = (Math.random()) * 10000; //any number from 0 - 10000
+    public static double randomDegree = randomPositiveDouble % 360;
 
 
 
@@ -47,7 +55,7 @@ public class MathPractice {
      */
     public static double randomDouble = (Math.random() - 0.5) * 20000; //any number from -10000 to 10000
 
-
+    public static double randomDegree2 = randomDouble % 180;
 
 
 
@@ -55,25 +63,33 @@ public class MathPractice {
         System.out.println("Exercise 1: ");
         System.out.println("Desired Answer : Mathematical Operation");
         System.out.println(4 + " : Exponents / Power");
-
+        System.out.println((int) twoSquared);
         System.out.println(35 + " : Addition");
+        System.out.println(addition);
         System.out.println(7 + " : Square Root");
+        System.out.println((int) squareRoot);
         System.out.println(105 + " : Subtraction");
+        System.out.println(subtraction);
         System.out.println(5 + " : Division");
+        System.out.println(division);
         System.out.println(5.5 + " : Division");
+        System.out.println(doubleDivision);
         System.out.println(6 + " : Modulus / Remainder");
+        System.out.println(modulus);
         System.out.println(32 + " : Multiplication");
+        System.out.println(multiplication);
         System.out.println(235 + " : Absolute Value");
-
+        System.out.println(absoluteValue);
         System.out.println("--------------------------------------------");
 
         System.out.println("Exercise 2: ");
         System.out.println("Random Positive Input: " + randomPositiveDouble + " degrees");
+        System.out.println("Random Degree Input: " + (int) randomDegree + " degrees");
 
         System.out.println("--------------------------------------------");
 
         System.out.println("Exercise 3: ");
         System.out.println("Random Input: " + randomDouble + " degrees");
-
+        System.out.println("Random Degree Input: " + (int) randomDegree2 + " degrees");
     }
 }
