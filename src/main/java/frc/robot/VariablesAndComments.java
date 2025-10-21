@@ -30,9 +30,9 @@ public class VariablesAndComments {
 
     public static int randomNum = 1;
     //Variables under this line
-
-
-
+public static boolean = true;
+public static String = ;
+public static long = 0.1; 
 
 
     //This is psvm and will be used to print out your variable values.
@@ -41,5 +41,8 @@ public class VariablesAndComments {
     //One example is provided
     public static void main(String[] args) {
         System.out.println("This is a random number: " + randomNum);
+        //*sout + tab= system.out.println
+        
+        
     }
 }
