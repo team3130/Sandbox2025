@@ -11,7 +11,7 @@ public class MathPractice {
      */
 
     public static double twoSquared = Math.pow(2, 2);
-
+    
 
 
 
@@ -54,21 +54,21 @@ public class MathPractice {
     public static void main(String[] args) {
         System.out.println("Exercise 1: ");
         System.out.println("Desired Answer : Mathematical Operation");
-        System.out.println(4 + " : Exponents / Power");
+        System.out.println(Math.pow(2,2)); //answ 4
 
-        System.out.println(35 + " : Addition");
-        System.out.println(7 + " : Square Root");
-        System.out.println(105 + " : Subtraction");
-        System.out.println(5 + " : Division");
-        System.out.println(5.5 + " : Division");
+        System.out.println(25 + 10); //answ:35
+        System.out.println(Math.sqrt(49)); //answ:7 ...sqrt is square root
+        System.out.println(50 + 55); //answ:105
+        System.out.println(25 / 5); //answ:5
+        System.out.println(11 / 2); //answ:5.5
         System.out.println(6 + " : Modulus / Remainder");
-        System.out.println(32 + " : Multiplication");
-        System.out.println(235 + " : Absolute Value");;
+        System.out.println(8 * 4); //answ:32
+        System.out.println(Math.abs(-135-100));; //answ:235 ...abs is absolute value
 
         System.out.println("--------------------------------------------");
 
         System.out.println("Exercise 2: ");
-        System.out.println("Random Positive Input: " + randomPositiveDouble + " degrees");
+        System.out.println(randomPositiveDouble%360);
 
         System.out.println("--------------------------------------------");
 
