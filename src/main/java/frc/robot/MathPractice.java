@@ -12,7 +12,7 @@ public class MathPractice {
 
     public static double twoSquared = Math.pow(2, 2);
 
-
+    System.out.println("The answer should be 4 and the answer is" + twoSquared);
 
 
 
@@ -63,7 +63,7 @@ public class MathPractice {
         System.out.println(5.5 + " : Division");
         System.out.println(6 + " : Modulus / Remainder");
         System.out.println(32 + " : Multiplication");
-        System.out.println(235 + " : Absolute Value");;
+        System.out.println(235 + " : Absolute Value");
 
         System.out.println("--------------------------------------------");
 
