@@ -11,6 +11,9 @@ public class MathPractice {
      */
 
     public static double twoSquared = Math.pow(2, 2);
+    public static double thirtyFive = 20 + 15;
+    public static double sevenSquared = Math.sqrt(49);
+    public static double oneOFive = 110 - 5;
 
 
 
@@ -54,8 +57,10 @@ public class MathPractice {
         System.out.println("Exercise 1: ");
         System.out.println("Desired Answer : Mathematical Operation");
         System.out.println(4 + " : Exponents / Power");
+        System.out.println("Answer: " + twoSquared);
 
         System.out.println(35 + " : Addition");
+        System.out.println("Answer: " + thirtyFive);
         System.out.println(7 + " : Square Root");
         System.out.println(105 + " : Subtraction");
         System.out.println(5 + " : Division");

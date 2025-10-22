@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MathPractice",
+      "request": "launch",
+      "mainClass": "frc.robot.MathPractice",
+      "projectName": "Sandbox2025"
+    },
+    {
+      "type": "java",
       "name": "VariablesAndComments",
       "request": "launch",
       "mainClass": "frc.robot.VariablesAndComments",
