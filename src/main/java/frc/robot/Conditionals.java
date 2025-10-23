@@ -47,6 +47,10 @@ public class Conditionals {
     public static String classType = "";             //Store your choice as a result in this variable. need to modify this
     public static double teachers = 0;
     public static double classSize = 0;
+    public static String firstName = "";
+    public static String secondName = "";
+    public static String thirdName = "";
+
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
