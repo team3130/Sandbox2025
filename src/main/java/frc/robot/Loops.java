@@ -1,6 +1,7 @@
 package frc.robot;
 
 public class Loops {
+    
     /* Exercise 1
      * Use a while loop and a for loop to recreate the exponent function
      * using 2 inputs. Note there is no code already here. It is
@@ -12,4 +13,11 @@ public class Loops {
      * and make sure it is present. The for loop should act to emulate the exponent function
      * same as before
      */
+
+
+     int i = 0;
+     while (i < 5) {
+     System.out.println(i);
+     i++;
+     }
 }
