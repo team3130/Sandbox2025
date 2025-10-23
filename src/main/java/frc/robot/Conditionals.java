@@ -9,10 +9,9 @@ public class Conditionals {
      * Large, Normal, or Small based off of the class size you give.
      * Large Class: more than 50 students
      * Medium Class: 15-50 students (inclusive)
-     * Small Class: less than 15 students*/
-
-      
-    /*  * Challenge Exercise 1
+     * Small Class: less than 15 students
+     * 
+     * Challenge Exercise 1
      * You are free to edit anything you want now for this exercise and are encouraged to do so.
      * I have provided logic on how to get keyboard input and use variables, 
      * use that to complete this exercise. Edit your solution from earlier and
@@ -25,10 +24,8 @@ public class Conditionals {
      *      Total Students: 30
      *      Total Teachers: 5
      *      You have a small class
-     */ 
-    
-
-     /* Challenge Exercise 2
+     * 
+     * Challenge Exercise 2
      * You are free to edit anything you want now for this exercise and are encouraged to do so.
      * The last one was somewhat easy so now let's make it a little difficult.
      * Comparisons can be used for strings as well which can be used in conditionals.
@@ -46,35 +43,14 @@ public class Conditionals {
      *      Zoey has 5 students
      */
 
-    public static double classSize = 0;             
-    public static String classType = "";   
-    public static String[] teachers = new String[3];  
-    public static double t1 = 0;
-    public static double t2 = 0;
-    public static double t3 = 0;
-    public static String temp = "";
-    public static int i = 0;
-    public static int j = 0;     
+    public static double classSize = 0;             //you should not need to modify this. You should use it without reassignment
+    public static String classType = "";             //Store your choice as a result in this variable. need to modify this
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.println("Please enter a number of students: ");
+        System.out.println("Please enter a class size: ");
         classSize = s.nextDouble();
-        for(i=0;i<3;i++){
-            System.out.println("Please enter teacher" + (i+1) + " name: ");
-            teachers[i] = s.next();
-        }
         System.out.println("You entered a class size of: " + classSize + " students");
-        System.out.println("You entered teacher1 name: " + teachers[0]);
-        System.out.println("You entered teacher2 name: " + teachers[1]);
-        System.out.println("You entered teacher3 name: " + teachers[2]);
-        java.util.Arrays.sort(teachers);
-        t1=classSize/2;
-        t2=classSize/3;
-        t3=classSize-t1-t2;
-        System.out.println(teachers[0] + " has " + t1 + " students");
-        System.out.println(teachers[1] + " has " + t2 + " students");
-        System.out.println(teachers[2] + " has " + t3 + " students");
 
         /*TODO:
         Write conditionals, store the result in the classType variable. Do not reassign classSize at any point.
