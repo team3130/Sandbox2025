@@ -45,18 +45,26 @@ public class Conditionals {
 
     public static double classSize = 0;             //you should not need to modify this. You should use it without reassignment
     public static String classType = "";             //Store your choice as a result in this variable. need to modify this
+    
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Please enter a class size: ");
         classSize = s.nextDouble();
         System.out.println("You entered a class size of: " + classSize + " students");
+        System.out.println("Teacher 1");
 
         /*TODO:
         Write conditionals, store the result in the classType variable. Do not reassign classSize at any point.
         Create solution below */
 
-
+        if(classSize > 50) {
+            classType = "Large";
+        } else if(classSize >= 15) {
+            classType = "Medium";
+        } else {
+            classType = "Small";
+        }
 
         
 
