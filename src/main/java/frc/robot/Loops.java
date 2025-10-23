@@ -1,4 +1,5 @@
 package frc.robot;
+import java.util.Scanner;
 
 public class Loops {
     /* Exercise 1
@@ -12,4 +13,19 @@ public class Loops {
      * and make sure it is present. The for loop should act to emulate the exponent function
      * same as before
      */
+
+    public static void main(String[] args) {
+
+        //Variables
+        double num1;
+        double num2;
+
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter number: ");
+        num1 = s.nextDouble;
+        System.out.println("Enter number: ");
+        num2 = s.nextDouble;
+
+        
+    }
 }
