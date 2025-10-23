@@ -76,5 +76,5 @@ public class Conditionals {
 
         /*End Solution */
         System.out.println("You have a " + classType + " class");
-    }
+    } 
 }
