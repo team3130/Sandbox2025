@@ -43,20 +43,35 @@ public class Conditionals {
      *      Zoey has 5 students
      */
 
-    public static double classSize = 0;             //you should not need to modify this. You should use it without reassignment
+    public static double students = 0;             //you should not need to modify this. You should use it without reassignment
     public static String classType = "";             //Store your choice as a result in this variable. need to modify this
+    public static double teachers = 0;
+    public static double classSize = 0;
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.println("Please enter a class size: ");
-        classSize = s.nextDouble();
-        System.out.println("You entered a class size of: " + classSize + " students");
+        System.out.println("Please enter the number of students: ");
+        students = s.nextDouble();
+        System.out.println("You entered: " + students + " students");
+        System.out.println("Please enter the number of teachers: ");
+        teachers = s.nextDouble();
+        System.out.println("You entered: " + teachers + " teachers");
 
         /*TODO:
         Write conditionals, store the result in the classType variable. Do not reassign classSize at any point.
         Create solution below */
+          
+        classSize = (students/teachers);
 
-
+        if(classSize>50){
+            classType = "large";
+        }
+        else if(classSize>=15){
+            classType = "medium";
+        }
+        else{
+            classType = "small";
+        }
 
         
 
