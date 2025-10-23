@@ -6,17 +6,17 @@
   "configurations": [
     {
       "type": "java",
-      "name": "VariablesAndComments",
+      "name": "Conditionals",
       "request": "launch",
-      "mainClass": "frc.robot.VariablesAndComments",
-      "projectName": ""
+      "mainClass": "frc.robot.Conditionals",
+      "projectName": "Sandbox2025"
     },
     {
       "type": "java",
-      "name": "MathPractice",
+      "name": "Conditionals",
       "request": "launch",
-      "mainClass": "frc.robot.MathPractice",
-      "projectName": ""
+      "mainClass": "Conditionals",
+      "projectName": "Sandbox2025"
     },
     {
       "type": "wpilib",
