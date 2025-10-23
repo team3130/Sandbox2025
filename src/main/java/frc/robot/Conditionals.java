@@ -43,19 +43,37 @@ public class Conditionals {
      *      Zoey has 5 students
      */
 
-    public static double classSize = 0;             //you should not need to modify this. You should use it without reassignment
-    public static String classType = "";             //Store your choice as a result in this variable. need to modify this
+    public static double students = 0;
+    public static double teachers = 0;              //you should not need to modify this. You should use it without reassignment
+    public static String classType = "";   
+              //Store your choice as a result in this variable. need to modify this
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.println("Please enter a class size: ");
-        classSize = s.nextDouble();
-        System.out.println("You entered a class size of: " + classSize + " students");
+        System.out.println("Please enter number of students: ");
+        students = s.nextDouble();
+        System.out.println("You entered the amount of students as: " + students + " students");
+
+        System.out.println("Please enter number of teachers: ");
+        teachers = s.nextDouble();
+        System.out.println("You entered the amount of teachers as: " + teachers + " students");
+
+        double sPerClass = students/teachers;
+        System.out.println("Your student per class on average is " + sPerClass + " students.");
 
         /*TODO:
         Write conditionals, store the result in the classType variable. Do not reassign classSize at any point.
         Create solution below */
-
+        
+        if (sPerClass<15){
+            classType = "small";
+        } 
+        else if (sPerClass<=50) {
+            classType = "medium"; 
+        } else {
+            classType = "large";
+        }
+    
 
 
         
@@ -63,6 +81,7 @@ public class Conditionals {
 
 
         /*End Solution */
+
         System.out.println("You have a " + classType + " class");
     }
 }
