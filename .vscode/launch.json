@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Loops",
+      "request": "launch",
+      "mainClass": "frc.robot.Loops",
+      "projectName": "Sandbox2025"
+    },
+    {
+      "type": "java",
       "name": "Conditionals",
       "request": "launch",
       "mainClass": "frc.robot.Conditionals",
