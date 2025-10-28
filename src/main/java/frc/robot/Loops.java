@@ -13,7 +13,10 @@ public class Loops {
      * and make sure it is present. The for loop should act to emulate the exponent function
      * same as before
      */
-    
+    public static void main(String[] args) {
+        
+        
+    }
 
      
 

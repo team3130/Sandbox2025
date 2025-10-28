@@ -21,7 +21,20 @@ public class Vehicle {
     * Constructor
     * Create a constructor that initializes all your variables using parameters
     */
-    public Vehicle() {}
+    public Vehicle() {
+
+        int gas = 10;
+        int mileage = 5;
+        int people = 4;
+        double xPosition = 45.86245753;
+        double yPosition = 78.25495313;
+        String cardinalDirection = "North";
+        String brand = "Toyota";
+        boolean parked =  ;
+
+        
+
+    }
 
 
 

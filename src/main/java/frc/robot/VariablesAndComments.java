@@ -34,7 +34,7 @@ public class VariablesAndComments {
     public static int randomNum = 1;
     //Variables under this line
 //public static boolean = true;
-//public static String = ;
+//public static String = "sup";
 //public static long = 0.1; 
 
 
