@@ -1,4 +1,4 @@
-package frc.robot;
+ package frc.robot;
 
 public class MathPractice {
     /* Exercise 1
@@ -11,8 +11,10 @@ public class MathPractice {
      */
 
     public static double twoSquared = Math.pow(2, 2);
-
-
+    public static double thirtyfive = 20 + 15;
+    public static double sevenSquared = 49;
+    
+    
 
 
 
@@ -29,6 +31,10 @@ public class MathPractice {
     Solve below and feel free to print your answers to check
      */
     public static double randomPositiveDouble = (Math.random()) * 10000; //any number from 0 - 10000
+    
+    
+    
+    public static double remainder = randomPositiveDouble % 360;
 
 
 
