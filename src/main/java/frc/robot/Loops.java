@@ -13,11 +13,14 @@ public class Loops {
      * and make sure it is present. The for loop should act to emulate the exponent function
      * same as before
      */
+    
 
+     
 
-     int i = 0;
+    int i = 1; {
      while (i < 5) {
-     System.out.println(i);
+     System.out.println("i");
      i++;
      }
+    }
 }
