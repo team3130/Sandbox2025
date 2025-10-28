@@ -9,6 +9,20 @@
       "name": "Conditionals",
       "request": "launch",
       "mainClass": "frc.robot.Conditionals",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "frc.robot.Main",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Conditionals",
+      "request": "launch",
+      "mainClass": "frc.robot.Conditionals",
       "projectName": "Sandbox2025"
     },
     {

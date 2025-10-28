@@ -21,9 +21,25 @@ public class Vehicle {
     * Constructor
     * Create a constructor that initializes all your variables using parameters
     */
-    public Vehicle() {}
+    private double gas;
+    private double mileage;
+    private int passengers;
+    private double xPos;
+    private double yPos;
+    private String direction;
+    private String brand;
+    private boolean parked;
 
-
+    public Vehicle(double gasSet, double mileageSet, int passengersSet, double xPosSet, double yPosSet, String directionSet, String brandSet, boolean parkedSet) {
+        gas = gasSet;
+        mileage = mileageSet;
+        passengers = passengersSet;
+        xPos = xPosSet;
+        yPos = yPosSet;
+        direction = directionSet;
+        brand = brandSet;
+        parked = parkedSet;
+    }
 
     /*
      * turnRight
@@ -31,13 +47,37 @@ public class Vehicle {
      * decide if you need parameters and how this will work
     */
 
+    public void turnRight() {
+        if (direction.equals("north")) {
+            direction = "east";
+        } else if (direction.equals("east")) {
+            direction = "south";
+        } else if (direction.equals("south")) {
+            direction = "west";
+        } else if (direction.equals("west")) {
+            direction = "north";
+        }
+    }
+
+
 
     /* 
      * turnLeft 
      * same thing as above function but opposite direction
     */
 
- 
+    public void turnLeft() {
+        if (direction.equals("north")) {
+            direction = "west";
+        } else if (direction.equals("west")) {
+            direction = "south";
+        } else if (direction.equals("south")) {
+            direction = "east";
+        } else if (direction.equals("east")) {
+            direction = "north";
+        }
+    }
+
     /*
      * move
      * move forward or backwards (depending on negative or positive) by updating coordinates
