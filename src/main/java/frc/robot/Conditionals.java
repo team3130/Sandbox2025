@@ -55,7 +55,14 @@ public class Conditionals {
         /*TODO:
         Write conditionals, store the result in the classType variable. Do not reassign classSize at any point.
         Create solution below */
-
+       
+        
+        
+        void hello() {
+            print("Hi");
+        }
+        
+        hello() ;
 
 
         
