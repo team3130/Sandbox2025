@@ -18,7 +18,7 @@ public class Loops {
         
     }
 
-     
+    //there are "while" and "for" loops 
 
     int i = 1; {
      while (i < 5) {

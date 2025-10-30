@@ -14,7 +14,7 @@ public class Car {
      * won't learn much at all
      */
 
-
+Car extends Vehicle
 
 
      

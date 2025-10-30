@@ -64,6 +64,7 @@ public class MathPractice {
         System.out.println(6 + " : Modulus / Remainder");
         System.out.println(8 * 4); //answ:32
         System.out.println(Math.abs(-135-100));; //answ:235 ...abs is absolute value
+        System.out.println(35%3);
 
         System.out.println("--------------------------------------------");
 
