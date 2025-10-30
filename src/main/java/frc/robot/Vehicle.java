@@ -16,12 +16,25 @@ public class Vehicle {
      * At the end, add a psvm and print out some things to prove your functions work. you must do this
      * using objects since your variables are no longer static
      */
+    double gallonsGas = 50;
+    int mileage = 50;
+    int passengers = 3;
+    double xPos = 4;
+    double yPos = 10;
+    String direction = "East";
+    String brand = "Porshe";
+    boolean parked = true;
 
+    if(gallonsGas < 1) {
+        System.out.println("Pull Over Low Gas!");
+    }
     /*
     * Constructor
     * Create a constructor that initializes all your variables using parameters
     */
-    public Vehicle() {}
+    public Vehicle() {
+    
+    }
 
 
 
