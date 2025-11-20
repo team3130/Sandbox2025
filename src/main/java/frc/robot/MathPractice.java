@@ -1,5 +1,9 @@
 package frc.robot;
 
+import edu.wpi.first.math.Vector;
+import edu.wpi.first.math.geometry.Translation2d;
+import edu.wpi.first.units.measure.Angle;
+
 public class MathPractice {
     /* Exercise 1
     Write mathematical equations and store them in variables.
@@ -11,6 +15,16 @@ public class MathPractice {
      */
 
     public static double twoSquared = Math.pow(2, 2);
+    public static double one = 30 + 5;
+    public static double two = Math.sqrt(49);
+    public static double three = 200 - 95;
+    public static double four = 65 / 13;
+    public static double five = 11 / 2;
+    public static double six = 13 % 7;
+    public static double seven = 16 * 2;
+    public static double eight = Math.abs(-235);
+
+
 
 
 
@@ -29,7 +43,7 @@ public class MathPractice {
     Solve below and feel free to print your answers to check
      */
     public static double randomPositiveDouble = (Math.random()) * 10000; //any number from 0 - 10000
-
+    public static double realDegrees = randomPositiveDouble % 360;
 
 
 
@@ -46,9 +60,7 @@ public class MathPractice {
     Solve below and feel free to print your answers to check
      */
     public static double randomDouble = (Math.random() - 0.5) * 20000; //any number from -10000 to 10000
-
-
-
+    public static double cookedRotation = randomDouble % 180;
 
 
     public static void main(String[] args) {
@@ -63,17 +75,21 @@ public class MathPractice {
         System.out.println(5.5 + " : Division");
         System.out.println(6 + " : Modulus / Remainder");
         System.out.println(32 + " : Multiplication");
-        System.out.println(235 + " : Absolute Value");;
+        System.out.println(235 + " : Absolute Value");
+        System.out.println(one + ", " + two + ", " + three + ", " + four + ", " + five + ", " + six + ", " + seven + ", "+ eight);
 
         System.out.println("--------------------------------------------");
 
         System.out.println("Exercise 2: ");
         System.out.println("Random Positive Input: " + randomPositiveDouble + " degrees");
+        System.out.println("Rotation:" + realDegrees);
 
         System.out.println("--------------------------------------------");
 
         System.out.println("Exercise 3: ");
         System.out.println("Random Input: " + randomDouble + " degrees");
+        System.out.println(cookedRotation);
+
 
     }
 }
