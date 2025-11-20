@@ -59,8 +59,7 @@ public class MathPractice {
     use but feel free to solve this using whatever test cases you like.
     Solve below and feel free to print your answers to check
      */
-    public static double randomDouble = (Math.random() - 0.5) * 20000; //any number from -10000 to 10000
-    public static double cookedRotation = randomDouble % 180;
+    public static double randomDouble = (Math.random()) * 20000; //any number from -10000 to 10000
 
 
     public static void main(String[] args) {
@@ -88,6 +87,10 @@ public class MathPractice {
 
         System.out.println("Exercise 3: ");
         System.out.println("Random Input: " + randomDouble + " degrees");
+        double doubleClamped = randomDouble % 360;
+        double cookedRotation = Math.min(doubleClamped, Math.abs(doubleClamped - 360));
+        double signum = Math.signum(doubleClamped - 180);
+        cookedRotation = -cookedRotation * signum;
         System.out.println(cookedRotation);
 
 
